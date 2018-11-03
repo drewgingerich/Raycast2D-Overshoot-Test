@@ -12,6 +12,6 @@ public class SimpleBallController : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		actor.Move(Vector2.down * Time.deltaTime);
+		actor.Move(Vector2.down * Time.fixedDeltaTime);
 	}
 }
