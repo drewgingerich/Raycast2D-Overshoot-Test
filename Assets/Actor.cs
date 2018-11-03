@@ -9,8 +9,6 @@ public class Actor : MonoBehaviour {
 	[SerializeField]
 	private Collider2D otherCollider;
 
-	private const float shellWidth = 0.001f;
-
 	private Rigidbody2D rb2d;
 	private Collider2D collider;
 	private RaycastHit2D[] hitBuffer = new RaycastHit2D[8];
